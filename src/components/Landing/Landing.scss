@@ -1,0 +1,173 @@
+.banner {
+    background: url(../../../public/img/banner.jpg) no-repeat;
+    // background: #DC5B1E;
+    padding: 250px 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    &:after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: rgba(56, 66, 83, 0.3);
+        content: "";
+        z-index: 1;
+    }
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+    h1 {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 75px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .bannerform {
+        display: flex;
+        justify-content: space-between;
+        background: rgba(34, 33, 49, 0.8);
+        border-radius: 4px;
+        .form-group {
+            margin: 0px;
+        }
+        padding: 15px;
+        .bannerinner {
+            display: flex;
+            width: 80%;
+            .form-group {
+                width: 50%;
+                margin: 0px;
+                input[type="text"] {
+                    border-radius: 4px;
+                    box-shadow: 0px -3px 0px inset #d9d9d9;
+                    background: #fff;
+                    margin: 0px;
+                    height: 46px;
+                    &.zip1 {
+                        border-top-left-radius: 4px;
+                        border-top-right-radius: 0px;
+                        border-bottom-left-radius: 4px;
+                        border-bottom-right-radius: 0px;
+                        border: 0px;
+                    }
+                    &.zip2 {
+                        border-top-left-radius: 0px;
+                        border-top-right-radius: 4px;
+                        border-bottom-left-radius: 0px;
+                        border-bottom-right-radius: 4px;
+                        border-left: 1px solid #a5aec0;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                    }
+                }
+            }
+        }
+        .submitblk {
+            width: 18%;
+            .search {
+                background: #544cf9;
+                color: #fff;
+                border-radius: 4px;
+                box-shadow: 0px -3px 0px inset #4741d4;
+                border: none;
+                font-size: 12px;
+                text-transform: uppercase;
+                height: 46px;
+                font-family: "Montserrat";
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.catagory {
+    padding: 15px 0;
+    box-shadow: 0px 17px 17px -17px rgba(0, 0, 0, 0.2);
+    ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+            width: 12%;
+            text-align: center;
+            a {
+                font-family: "Montserrat";
+                color: #2c3e50;
+                font-size: 18px;
+                span {
+                    height: 80px;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+.oranizations {
+    padding: 100px 0;
+    .organi_blk {
+        box-shadow: 2px 2px 29px -9px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding: 25px 15px;
+        .orgni_title {
+            color: #000000;
+            font-size: 22px;
+            margin: 15px 0;
+        }
+        .orgni_content {
+            color: #7d7d7d;
+            .signup_blk {
+                background: #544cf9;
+                color: #fff;
+                border-radius: 30px;
+                padding: 10px 50px;
+                margin: 15px 0 0;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.path {
+    text-align: center;
+    padding: 50px 0 100px;
+    h2 {
+        font-size: 48px;
+        font-weight: 600;
+        color: #4f4f6f;
+        margin: 0 0 20px;
+    }
+    p {
+        color: #7d7d7d;
+        &.w_80 {
+            width: 60%;
+            margin: 0 auto;
+        }
+        &.w_90 {
+            width: 60%;
+            margin: 0 auto;
+            font-size: 25px;
+        }
+    }
+    .pathimg {
+        margin: 35px 0;
+    }
+}
+.signup_blk {
+    background: #544cf9;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 50px;
+    margin: 15px 0 0;
+    display: inline-block;
+}

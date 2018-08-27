@@ -1,0 +1,10 @@
+export const AUTH = process.env.PUBLIC_URL + "/auth";
+export const LOGIN_ROUTE = "/login";
+export const LOGOUT_ROUTE = "/logout";
+export const SIGNUP_ROUTE = "/signup";
+export const Home_ROUTE = "/Home";
+export const Services_ROUTE = "/Services";
+export const AboutUs_ROUTE = "/AboutUs";
+export const ContactUs_ROUTE = "/ContactUs";
+export const HOME_ROUTE = process.env.PUBLIC_URL + "/home";
+export const ROOT_ROUTE = process.env.PUBLIC_URL + "/";

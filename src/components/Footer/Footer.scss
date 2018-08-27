@@ -1,0 +1,155 @@
+
+footer {
+    border-top: 1px solid #ebebeb;
+    padding: 0px 0;
+    .footer-top {
+        margin: 30px -15px;
+        img{
+            margin: 0 0 0 30px;
+        }
+    }
+    .f_links {
+        margin: 30px -15px ;
+        display: flex;
+        h4 {
+            font-size: 18px;
+            margin: 0 0 15px;
+        }
+        .sec2 {
+            padding: 0 0 0 70px;
+        }
+        ul {
+            li {
+                margin: 10px 0;
+                a {
+                    color: #7d7d7d;
+                    &:hover {
+                        color: #544cf9;
+                    }
+                }
+            }
+        }
+    }
+    .total {
+        display: flex;
+        p {
+            font-weight: 800;
+            font-size: 13px;
+            margin: 0 40px 0 0;
+            .blue {
+                color: #544cf9;
+                font-size: 22px;
+                font-weight: 400;
+            }
+            &:last-child {
+                margin: 0px;
+            }
+        }
+    }
+    .email_sec {
+        position: relative;
+        width: 510px;
+        float: right;
+        max-width: 100%;
+        input[type="email"] {
+            padding-right: 155px;
+        }
+        .submit1 {
+            position: absolute;
+            top: 0;
+            border: 1px solid #d9e6ec;
+            border-top-right-radius: 90px;
+            color: #fff;
+            background: #544cf9;
+            right: 0;
+            bottom: 0;
+            padding: 0 35px;
+            border-bottom-right-radius: 90px;
+            text-transform: uppercase;
+        }
+    }
+    .grey {
+        color: #7d7d7d;
+    }
+    .footer-bottom {
+        .btm-top {
+            align-items: center;
+            border-top:1px solid #ebebeb;
+            padding: 30px 0 0; 
+            >ul {
+                li {
+                    display: inline-block;
+                    margin: 0 30px;
+                    &:first-child {
+                        margin: 0 20px 0 0;
+                    }
+                    a {
+                        color: #000;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .language {
+                .v_align{
+                    vertical-align: middle;
+                }
+                .btn{
+                    padding: 0px 0 0 5px;
+                }
+                .btn,
+                .dropdown-menu {
+                    font-size: 13px;
+                    text-transform: uppercase;
+                }
+                .dropdown-menu {
+                    padding: 0 15px;
+                    li {
+                        margin: 15px 0;
+                        a {
+                            color: #544cf9;
+                        }
+                    }
+                }
+                .dropup {
+                    .dropdown-toggle {
+                        &:after {
+                            border-top: 5px solid #d7d7d7;
+                            border-bottom: 5px solid transparent;
+                            border-right: 5px solid transparent;
+                            border-left: 5px solid transparent;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+        .btm-btm{
+            margin: 10px 0;
+            p{
+                margin: 0px;
+            }
+            ul{
+                li{
+                    display: inline-block;
+                    margin: 0 0 0 15px;
+                    a{
+                        height: 35px;
+                        width: 35px;
+                        border-radius: 50%;
+                        background: #ecf5f6;
+                        border: 1px solid #ecf5f6;
+                        color: #959595;
+                        line-height: 35px;
+                        text-align: center;
+                        display: block;
+                        &:hover{
+                            color: #544cf9;
+                            background: #fff;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
