@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import AppLayout from "../AppLayout";
 import "./Services.scss";
-import { TEVENIA_TITLE } from "../../services/titleConst";
+import { SERVICES_TITLE } from "../../services/titleConst";
 
 class Services extends Component {
     constructor(props) {
         super(props);
-        document.title = TEVENIA_TITLE;
+        document.title = SERVICES_TITLE;
     }
 
     componentDidMount() {
